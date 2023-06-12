@@ -1,5 +1,4 @@
-const fibonacci = (num) => {
-    
-}
+const fibonacci = (n) => {
 
+}
 module.exports = {fibonacci}
