@@ -5,6 +5,10 @@ describe("test fibonacci", () => {
     expect(fibonacci(0)).toBe(0);
   });
 
+  test("fibonacci(1) === 1", () => {
+    expect(fibonacci(1)).toBe(1);
+  });
+  
   test("fibonacci(2) === 1", () => {
     expect(fibonacci(2)).toBe(1);
   });
